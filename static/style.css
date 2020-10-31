@@ -325,7 +325,7 @@
     border-radius: 16px;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px blueviolet;
     color: #fff;
     transition: all 0.2s;
     align-items: center;
@@ -333,26 +333,26 @@
   }
   
   .category:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 16px blueviolet;
   }
   
   .category:nth-child(1) {
-    background-color: #000000;
-    background-image: url("static/Bullseye-Gradient.svg");
+    background: #090b28;
+    background-image: url("Bullseye-Gradient.svg");
   }
   
   .category:nth-child(2) {
-    background-color: #ff66bb;
+    background: #090b28;
     background-image: url("static/Cornered-Stairs.svg");
   }
   
   .category:nth-child(3) {
-    background-color: #ff7700;
+    background: #090b28;
     background-image: url("static/Flat-Mountains.svg");
   }
   
   .category:nth-child(4) {
-    background-color: #ff0000;
+    background: #090b28;
     background-image: url("static/Quantum-Gradient.svg");
   }
   
